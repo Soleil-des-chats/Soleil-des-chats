@@ -5,11 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=soleil-des-chats" alt="soleil-des-chats" /></a> </p>
 
-- I’m currently working on [Jonathan](https://github.com/Soleil-des-chats/Jonathan-ChatGptTool)
+- I’m currently working on [NumPost](https://github.com/Soleil-des-chats/NumPost)
 
-- I’m looking to collaborate on [Nswitcher](https://github.com/NswitcheR-Server)
+- I’m looking to collaborate on [iSource](https://github.com/iSource)
 
-- 😪 I’m looking for help with [Specary](https://github.com/Specary)
+- 😪 I’m looking for help with [XashiOS](https://github.com/Soleil-des-chats/Xash3D-iOS)
 
 - 📫 How to reach me **niatsuyt@gmail.com**
 

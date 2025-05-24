@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=soleil-des-chats" alt="soleil-des-chats" /></a> </p>
 
-- I’m currently ~~working~~**crying** on [HoloOS]()
+- I’m currently ~~working~~**crying** on **HoloOS**
 
 - I’m looking to collaborate on [iSource](https://github.com/iSource)
 

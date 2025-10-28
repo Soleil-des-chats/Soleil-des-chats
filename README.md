@@ -8,6 +8,8 @@
   <img src="https://komarev.com/ghpvc/?username=soleil-des-chats&label=Profile%20views&color=ff69b4&style=flat" alt="profile views" />
 </p>
 
+<h1 align="center"></h1>
+
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=soleil-des-chats&theme=radical&no-frame=true&margin-w=10" />

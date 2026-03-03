@@ -14,6 +14,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Soleil-des-chats/Soleil-des-chats/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
+</p>
+
 ---
 
 ### 💡 About me

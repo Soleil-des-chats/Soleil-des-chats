@@ -6,7 +6,14 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=soleil-des-chats&label=Profile%20views&color=ff69b4&style=flat" alt="profile views" />
-  [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api)](https://github.com/cheehwatang/github-readme-daily-quotes)
+</p>
+
+---
+
+<p align="center">
+  <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
+    <img src="https://readme-daily-quotes.vercel.app/api" alt="Github Readme Daily Quotes" />
+  </a>
 </p>
 
 ---

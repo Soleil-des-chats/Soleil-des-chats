@@ -1,0 +1,53 @@
+name: generate animation
+
+on:
+  # GitHub Actions cron uses UTC (no timezone support), so we run hourly and gate to 02:00 Europe/Paris.
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # Only run at 02:00 Paris time (manual runs always allowed)
+      - name: Time gate (02:00 Europe/Paris)
+        id: timegate
+        shell: bash
+        run: |
+          PARIS_HOUR="$(TZ=Europe/Paris date +%H)"
+          PARIS_MIN="$(TZ=Europe/Paris date +%M)"
+
+          if [[ "${PARIS_HOUR}" == "02" && "${PARIS_MIN}" == "00" ]]; then
+            echo "run_now=true" >> "$GITHUB_OUTPUT"
+            echo "Running: it is 02:00 in Europe/Paris."
+          else
+            echo "run_now=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping: it is ${PARIS_HOUR}:${PARIS_MIN} in Europe/Paris."
+          fi
+
+      # Generates the snake SVG (single file)
+      - name: generate github-snake.svg
+        if: steps.timegate.outputs.run_now == 'true' || github.event_name == 'workflow_dispatch'
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # One SVG with high-contrast colors (works reasonably on both light/dark backgrounds)
+          outputs: |
+            dist/github-snake.svg?color_snake=%23ff9f0a&color_dots=%2330363d,%230e4429,%23006d32,%2326a641,%2339d353
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Push to output branch
+      - name: push github-snake.svg to the output branch
+        if: steps.timegate.outputs.run_now == 'true' || github.event_name == 'workflow_dispatch'
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

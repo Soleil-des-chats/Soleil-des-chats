@@ -12,9 +12,7 @@
 
 ### 💡 About me
 - 🛠 I’m currently ~~working~~ **crying** on **HoloOS**  
-- 🤝 Looking to collaborate on [iSource](https://github.com/Soleil-des-chats/iSource)  
-- 😪 I need help with [XashiOS](https://github.com/Soleil-des-chats/Xash3D-iOS)  
-- 📫 Reach me at **niatsuyt@gmail.com**  
+- 😪 I wanna make a game but i'm never sure of what i want to make
 - ⚡ Fun fact: **I live in France 🇫🇷**  
 
 ---

@@ -17,14 +17,6 @@
 
 ---
 
-### 🌐 Connect with me
-<p align="center">
-  <a href="https://discord.gg/꧁༺ƝƖ𐤠ƬSꓴ༻꧂#6915"><img src="https://skillicons.dev/icons?i=discord" height="40"/></a>
-  <a href="https://stackoverflow.com/users/23342008/titimousse"><img src="https://skillicons.dev/icons?i=stackoverflow" height="40"/></a>
-</p>
-
----
-
 ### ⚙️ Tech Stack
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,cpp,python,nodejs,react,php,java,swift,arduino,unity" /><br/>

@@ -1,4 +1,4 @@
-<h1 align="center">✨ Hi, I'm Titimousse 😜</h1>
+<h1 align="center">✨ Hi, I'm AbsoluteNia 😜</h1>
 <h3 align="center">Blocked? Patch it. Play it. Own it.</h3>
 <h3 align="center">Neon-lit hacker · Dev · Tech weeb 💻🌸</h3>
 

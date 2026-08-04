@@ -17,9 +17,7 @@
 ---
 
 ### 💡 About me
-- 🛠 I’m currently ~~working~~ **crying** on **HoloOS**  
-- 😪 I wanna make a game but i'm never sure of what i want to make
-- ⚡ Fun fact: **I live in France 🇫🇷**  
+- 🛠 I’m working on.... no actual stable project sadly
 
 ---
 

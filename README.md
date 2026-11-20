@@ -17,7 +17,7 @@
 ---
 
 ### 💡 About me
-- 🛠 I’m currently working on my own Source Engine fork and Pronote for the 3ds
+- 🛠 I’m currently working on a game
 
 ---
 
